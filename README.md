@@ -122,3 +122,5 @@ For efficiency purposes, we allow CircleCI to bypass certain jobs based on the p
 | `pattern/`  | This will bypass React Storybook build and tests | This prefix should only be used if all your changes are in the [patternlab](/packages/patternlab) folder, and nothing in the shared [assets](/packages/assets) folder that could potentially impact the build of the React implementation  |
 | `site/`  | This will bypass all React and Patternlab and assets build, deploy and tests. |  Only use this prefix if all the changes are in the [site](/packages/site) folder. e.g. Content changes to the homepage site that won't impact React, Patternlab and shared assets. |
 | `docs`  | This will bypass all React and Patternlab and assets build, deploy and tests, as well as Mayflower site build and tests. | Only use this prefix if all the changes are in the [docs](/docs) folder. e.g. Documentation changes for the repo that won't impact React, Patternlab, shared assets and the homepage static site. |
+
+<!-- Updated on 2025-08-28 12:40:34 by automated script -->
